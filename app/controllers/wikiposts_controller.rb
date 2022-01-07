@@ -1,5 +1,5 @@
 class WikipostsController < ApplicationController
-  before_action :set_wikipost, only: %i[ edit update destroy ]
+  before_action :set_wikipost, only: %i[ edit update destroy show ]
 
   #GET /wikiposts or /wikiposts.json
   def index
