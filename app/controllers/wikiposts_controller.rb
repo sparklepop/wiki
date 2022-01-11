@@ -3,7 +3,7 @@ class WikipostsController < ApplicationController
 
   #GET /wikiposts or /wikiposts.json
   def index
-    @wikiposts = Wikipost.all
+    @posts = Wikipost.all
   end
 
   # GET /wikiposts/1 or /wikiposts/1.json

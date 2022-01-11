@@ -1,3 +1,72 @@
 // Place all the styles related to the Wikiposts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ $border-radius: 5px;
+ html, body {
+    margin: 0;
+    
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-size: 2.5em;
+    }
+    .description {
+        background-color: purple;
+        padding: 2em;
+        font-size: 1em;
+        max-width: 600px;
+    }
+    .meta {
+        display: flex;
+        * {
+            background-color: plum;
+            margin: 5;
+            padding: 5px;
+            border-radius: $border-radius;
+            display: flex;
+            align-items: center;
+        }
+
+        .links {
+            margin-top: 10px;
+            a{
+            background-color: plum;
+            margin: 5;
+            padding: 5px;
+            border-radius: $border-radius;
+            font-weight: bold;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+            }
+            
+        }
+    }
+
+  }
+  body * {
+    color:white;
+  }
