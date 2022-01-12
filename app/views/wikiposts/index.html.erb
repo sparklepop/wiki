@@ -1,16 +1,5 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Wikiposts</h1>
-<div>
-    <% @posts.each do |post| %>
-        <p>
-            <h4> <%= post.title %> </h4>
-            <%= link_to "View", wiki_post_path(post) %>
-        </p>
-
-    <% end %>
-</div>
-
-
 
 <%= link_to 'New Wikipost', new_wikipost_path %>
