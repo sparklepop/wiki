@@ -10,9 +10,11 @@
       </ul>
     </div>
   <% end %>
+  <div>
   <%= form.label :title, "Post Title" %>
   <%= form.text_field :title%>
-  <%= form.label :title, "Post image" %>
+  </div>
+  <%= form.label :image, "Post image" %>
   <%= form.file_field :image%>
   <%= form.label :title, "Post Description" %>
   <%= form.text_field :description%>
