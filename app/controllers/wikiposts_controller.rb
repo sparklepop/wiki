@@ -31,7 +31,7 @@ class WikipostsController < ApplicationController
         format.html { redirect_to wikipost_url(@wikipost), notice: "Wikipost was successfully created." }
         format.json { render :show, status: :created, location: @wikipost }
       else
-        format.html { render :new, status: :unprocessable_entity }
+        format.html { render :new, status: :unprocessable_entity, notice:"Error the Post was not saved." }
         format.json { render json: @wikipost.errors, status: :unprocessable_entity }
       end
     end
@@ -68,6 +68,6 @@ class WikipostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def wikipost_params
-      params.fetch(:wikipost, {}).permit(:title, :description, :image, :author)
+      params.fetch(:wikiposts, {}).permit(:title, :description, :image, :author)
     end
 end
