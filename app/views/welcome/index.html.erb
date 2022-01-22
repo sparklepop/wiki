@@ -3,11 +3,12 @@
     <% @posts.each do |post| %>
         <p>
             <h4> <%= post.title %> </h4>
+    
             <%= link_to "View", wikipost_path(post), class: 'wikilink' %>
         </p>
 
     <% end %>
 </div>
 
-<%= link_to "About", welcome_about_path%>
-<%= link_to "New Post", new_wikipost_path%>
+<%= link_to "About", welcome_about_path %>
+<%= link_to "New Post", new_wikipost_path %>

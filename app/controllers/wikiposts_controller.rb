@@ -3,11 +3,12 @@ class WikipostsController < ApplicationController
 
   #GET /wikiposts or /wikiposts.json
   def index
-   
+     @wikipost = Wikipost.all
   end
 
   # GET /wikiposts/1 or /wikiposts/1.json
   def show
+
   end
 
   def example
@@ -68,6 +69,6 @@ class WikipostsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def wikipost_params
-      params.fetch(:wikiposts, {}).permit(:title, :description, :image, :author)
+      params.fetch(:wikipost, {}).permit(:title, :description, :image, :author)
     end
 end
