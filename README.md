@@ -1,5 +1,12 @@
 # README
 
+Bug List
+1) wikipost links redirect to the latest post instead of the selected id
+2) Back link on a Specific post links to wikiposts which only has New ...should return to list / index
+3) 
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
