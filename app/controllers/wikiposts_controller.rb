@@ -8,7 +8,6 @@ class WikipostsController < ApplicationController
 
   # GET /wikiposts/1 or /wikiposts/1.json
   def show
-
   end
 
   def example

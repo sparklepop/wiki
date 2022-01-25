@@ -4,11 +4,11 @@ const ready = () => {
         link.addEventListener("click", e=> {
             e.preventDefault();
             if(!confirm("Are you sure you want to view this article?")){
-                return
-            }
-            window.location.href = link.href
-        } )
-    }
+                 return
+             }
+             window.location.href = link.href
+         } )
+     }
 }
 
 document.addEventListener("DOMContentLoaded", ready);
