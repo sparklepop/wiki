@@ -6,6 +6,7 @@
     <% @wikipost.each do |post| %>
         <p>
             <h4> <%= post.title %> </h4>
+           
     
             <%= link_to "View", wikipost_path(post) %>
         </p>

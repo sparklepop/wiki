@@ -4,6 +4,7 @@ class WikipostsController < ApplicationController
   #GET /wikiposts or /wikiposts.json
   def index
      @wikipost = Wikipost.all
+
   end
 
   # GET /wikiposts/1 or /wikiposts/1.json
@@ -41,7 +42,7 @@ class WikipostsController < ApplicationController
   def update
     respond_to do |format|
       if @wikipost.update(wikipost_params)
-        format.html { redirect_to wikipost_url(@wikipost), notice: "Wikipost was successfully updated." }
+        format.html { redirect_to wikipost_url(@wikipost), notice: "You updated wiki post "+"\""+@wikipost.title+"\"" }
         format.json { render :show, status: :ok, location: @wikipost }
       else
         format.html { render :edit, status: :unprocessable_entity }
