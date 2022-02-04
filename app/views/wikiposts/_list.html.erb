@@ -1,0 +1,13 @@
+
+<div>
+
+    <% @wikipost.each do |wikipost| %>
+        <p>
+            <h4> <%= wikipost.title %> </h4>
+    
+            <%= link_to "View", wikipost_path(wikipost), class: 'wikilink' %>
+        </p>
+
+    <% end %>
+</div>
+

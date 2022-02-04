@@ -6,11 +6,9 @@
 <%= @wikipost.description %>
 </p>
 
-
-<%= image_tag @wikipost.image %>
-
 <div>
-    <%= @wikipost.meta%>
+<%= @wikipost.image %>
+<%= render 'meta', wikipost: @wikipost %>
 </div> 
 
 <%= link_to 'Edit', edit_wikipost_path(@wikipost) %> |
