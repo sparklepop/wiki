@@ -2,17 +2,19 @@
 
 <h1>Wikiposts</h1>
 
+
 <div>
-    <% @wikipost.each do |post| %>
+
+    <% @wikipost.each do |wikipost| %>
         <p>
-            <h4> <%= post.title %> </h4>
-           
+            <h4> <%= wikipost.title %> </h4>
     
-            <%= link_to "View", wikipost_path(post) %>
+            <%= link_to "View", wikipost_path(wikipost), class: 'wikilink' %>
         </p>
 
     <% end %>
 </div>
+ 
 
 <%= link_to "About", welcome_about_path %>
 <%= link_to "New Post", new_wikipost_path %>

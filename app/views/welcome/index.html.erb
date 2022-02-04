@@ -1,10 +1,10 @@
-<h1>Hello and Welcome to this Wiki</h1>
+<h1>Hello and Welcome to this Wiki Welcome Page</h1>
 <div>
-    <% @wikipost.each do |post| %>
+    <% @wikipost.each do |wikipost| %>
         <p>
-            <h4> <%= post.title %> </h4>
+            <h4> <%= wikipost.title %> </h4>
     
-            <%= link_to "View", wikipost_path(post), class: 'wikilink' %>
+            <%= link_to "View", wikipost_path(wikipost), class: 'wikilink' %>
         </p>
 
     <% end %>
