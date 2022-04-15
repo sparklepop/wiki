@@ -2268,12 +2268,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^2.6.3":
-  version: 2.6.3
-  resolution: "async@npm:2.6.3"
+"async@npm:^2.6.2":
+  version: 2.6.4
+  resolution: "async@npm:2.6.4"
   dependencies:
     lodash: "npm:^4.17.14"
-  checksum: f6055181757ab4cca97e7fd8ed12487550a332bddfb563ee7d29a58bbd1ffd749c5efe75127d433380a7c349a422e8a74726c41d3eca499d9566b29041c43f3d
+  checksum: 87b000b0c272771a0695682f874763e40813766e98ccb58f7f54404190b4af44ce494e40ecef813dffe04f60d4f618e18842edc7814d6186765144c0b53357d4
   languageName: node
   linkType: hard
 
