@@ -2118,9 +2118,9 @@ __metadata:
   linkType: hard
 
 "ansi-regex@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "ansi-regex@npm:4.1.0"
-  checksum: 5927936cdd85b2c5afc966d7e33817b0b7695ad301cf5eac4f56447f38f1fadc1b6fe1ab3012813c6e0e25aed31ef68de522d893e0ece13cf48c2e950f733dd8
+  version: 4.1.1
+  resolution: "ansi-regex@npm:4.1.1"
+  checksum: bca5d9b63a576c91e33be9ef62eb72d461d5902389294e692ecbaa5289e5afde9238c7a0ada9f9f60bc245661ed87a3db571beb02867e7067e640193207354b0
   languageName: node
   linkType: hard
 
