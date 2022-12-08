@@ -6,7 +6,7 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.4.3",
-    "css-select": "4.1.3",
+    "css-select": "5.1.0",
     "glob-parent": "5.1.2",
     "postcss": "8.2.13",
     "turbolinks": "^5.2.0",
