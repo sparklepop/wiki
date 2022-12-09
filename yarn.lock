@@ -1578,9 +1578,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.11.11
-  resolution: "@types/node@npm:18.11.11"
-  checksum: 7ff6dfb616544cf046b95a988435b2eddf31ea839864454fedb9b0512bbe0b9abbf7f61c3e9d3c6160b626ec8d15cf6b2255a242827ba8e599c5525952b696a5
+  version: 18.11.12
+  resolution: "@types/node@npm:18.11.12"
+  checksum: 4b12f985ea2509f389f5d318677939b9d59bb3e03977512ac3e73aaa390c5a9524d1d762d215a6efbc457e7d70697b3dd25f50fe8ad6a0fa3490828a41b2bc9c
   languageName: node
   linkType: hard
 
@@ -2856,9 +2856,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30000981, caniuse-lite@npm:^1.0.30001109, caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001436
-  resolution: "caniuse-lite@npm:1.0.30001436"
-  checksum: 6651c1e8dfe1967484a1a79083036a11eaf9b2205339f8ccb4b827632909379e79614abcfdb06cecda907b8c87429969aac60c68d0fd8f903e72e661c4acb868
+  version: 1.0.30001439
+  resolution: "caniuse-lite@npm:1.0.30001439"
+  checksum: 3e7244860ee256cef3578bef553852fe54e73832448a1d02d5be0c6c98e96b4d29bd3dd15e61de0b88dd9dbbc80a34f6df1c12730819927343ec5cdf48949a04
   languageName: node
   linkType: hard
 
@@ -8342,15 +8342,15 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.38.0":
-  version: 1.56.1
-  resolution: "sass@npm:1.56.1"
+  version: 1.56.2
+  resolution: "sass@npm:1.56.2"
   dependencies:
     chokidar: "npm:>=3.0.0 <4.0.0"
     immutable: "npm:^4.0.0"
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: e48cbad4d2624d6a33bdf0595e3263a6c13e296b556af5e0e5fb44047ae7b2fbd6b240d0d5bb6fed403203cafb6b39b89a03a17e17d6ca2a98422abdf54754f7
+  checksum: 6fc46a1190489e2d0d023cc9b5a51cbbfbe393e6dbecef0a3743faab7936afb2880ed2f9ce6b21acb0fbb4ddbde30535d9958a5a3ae035cd6e22926c45f1be8f
   languageName: node
   linkType: hard
 
