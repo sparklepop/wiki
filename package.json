@@ -21,6 +21,7 @@
     "chokidar": "3.5.3",
     "postcss": "8.2.13",
     "nth-check": "2.1.1",
+    "css-select": "5.1.0",
     "minimist": "1.2.6",
     "terser": "5.14.2"
   }
