@@ -4635,7 +4635,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob-parent@npm:5.1.2, glob-parent@npm:~5.1.2":
+"glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
   dependencies:
@@ -6560,12 +6560,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nth-check@npm:2.0.1":
-  version: 2.0.1
-  resolution: "nth-check@npm:2.0.1"
+"nth-check@npm:2.1.1":
+  version: 2.1.1
+  resolution: "nth-check@npm:2.1.1"
   dependencies:
     boolbase: "npm:^1.0.0"
-  checksum: 3a86e25191c091e08f0ece6a1ae691971d4657338eef82bb0fa2cac07491ce0cff6ead2fd945d385a3cda3f707bde1fc141d4f1b4ce7d52a814e36e2d6575076
+  checksum: 47e3a752fb9e7619e0567ce3bf5a38b766689d94be7cfa10099688d1f521cfb9698a6f7ef032d608a24bbbd1e412748929940170c5e6db433326ad1471031143
   languageName: node
   linkType: hard
 
@@ -9971,7 +9971,7 @@ __metadata:
     "@rails/ujs": "npm:^6.0.0"
     "@rails/webpacker": "npm:5.4.3"
     css-select: "npm:5.1.0"
-    glob-parent: "npm:5.1.2"
+    glob-parent: "npm:^5.1.2"
     postcss: "npm:8.2.13"
     turbolinks: "npm:^5.2.0"
     webpack: "npm:^5.68.0"
